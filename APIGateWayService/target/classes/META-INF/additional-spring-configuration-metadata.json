@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "spring.application.data.mongodb.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.data.mongodb.uri'"
+  },
+  {
+    "name": "spring.application.main.allow-circular-references",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.main.allow-circular-references'"
+  },
+  {
+    "name": "spring.application.main.allow-bean-definition-overriding",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.main.allow-bean-definition-overriding'"
+  },
+  {
+    "name": "spring.application.main.mvc.pathmatch.matching-strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.main.mvc.pathmatch.matching-strategy'"
+  }
+]}

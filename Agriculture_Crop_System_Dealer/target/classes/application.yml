@@ -1,0 +1,27 @@
+server:
+  port: 8083
+spring:
+  application:
+      name: AgricultureCropSystemeDaler
+  data:
+   mongodb:
+    uri: mongodb+srv://lrbangare97:lalesh@cluster0.dnar8.mongodb.net/AgricultureDatabase?retryWrites=true&w=majority
+  main:
+      allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+eureka:
+   client:
+      service-url:
+       defaultZone: http://localhost:8761/eureka/
+logging:
+  file:
+   path: FarmerLogs/farmlog.log   
+DealerModel:
+         exception: 
+               dealerModelExists: DealerID already exists!
+               dealerModelNotFound: Dealer id not found...
+
+#logging.level.root=INFO
+#logging.level.com.cg=TRACE

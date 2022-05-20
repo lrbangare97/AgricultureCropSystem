@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.farmer.controller.FormerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.135 s <<< FAILURE! - in com.cg.farmer.controller.FormerControllerTest
+testGetAllDataControllerTest  Time elapsed: 1.067 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+ds.getAllData();
+-> at com.cg.farmer.controller.FormerControllerTest.testGetAllDataControllerTest(FormerControllerTest.java:61)
+Actually, there were zero interactions with this mock.
+
+	at com.cg.farmer.controller.FormerControllerTest.testGetAllDataControllerTest(FormerControllerTest.java:61)
+
+testCreateDataControllerTest  Time elapsed: 0.068 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.cg.farmer.controller.FormerControllerTest.testCreateDataControllerTest(FormerControllerTest.java:70)
+

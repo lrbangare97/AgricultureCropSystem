@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "data.exception",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception'"
+  },
+  {
+    "name": "data.dataExists",
+    "type": "java.lang.String",
+    "description": "A description for 'data.dataExists'"
+  },
+  {
+    "name": "data.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.dataNotFound'"
+  },
+  {
+    "name": "farmerModel.exception.farmer-model-exists",
+    "type": "java.lang.String",
+    "description": "A description for 'farmerModel.exception.farmer-model-exists'"
+  },
+  {
+    "name": "farmerModel.exception.farmerModelNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'farmerModel.exception.farmerModelNotFound'"
+  },
+  {
+    "name": "data.farmerModelExists",
+    "type": "java.lang.String",
+    "description": "A description for 'data.farmerModelExists'"
+  }
+]}

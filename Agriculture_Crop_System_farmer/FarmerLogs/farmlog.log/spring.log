@@ -1,0 +1,407 @@
+2022-05-13 04:49:19.560  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Starting AgricultureCropSystemFarmerApplication using Java 17.0.2 on INLEN8520051028 with PID 16264 (C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer\target\classes started by lbangare in C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer)
+2022-05-13 04:49:19.610  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 04:49:19.677  INFO 16264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-13 04:49:19.678  INFO 16264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-13 04:49:20.378  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 04:49:20.538  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 04:49:20.844  INFO 16264 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1f84e606-0f77-382d-8ed8-302bb49eab9a
+2022-05-13 04:49:21.543  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 04:49:21.560  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 04:49:21.561  INFO 16264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 04:49:21.663  INFO 16264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 04:49:21.666  INFO 16264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1987 ms
+2022-05-13 04:49:22.077  INFO 16264 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.dnar8.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-xydrav-shard-0'}
+2022-05-13 04:49:22.308  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 04:49:22.349  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 04:49:22.351  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 04:49:22.909  WARN 16264 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 04:49:23.018  WARN 16264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-13 04:49:23.061  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:136837}] to cluster0-shard-00-00.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.061  INFO 16264 --- [cluster-rtt-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:136837}] to cluster0-shard-00-00.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.061  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:135884}] to cluster0-shard-00-02.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.061  INFO 16264 --- [cluster-rtt-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:135885}] to cluster0-shard-00-02.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.062  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.dnar8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=236624900, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-00.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627b87d1649684b11d2b4fec, counter=4}, lastWriteDate=Fri May 13 04:49:22 IST 2022, lastUpdateTimeNanos=40474039005000}
+2022-05-13 04:49:23.062  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.dnar8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=239987900, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-02.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627b8a98b6b4b63e93047dbb, counter=3}, lastWriteDate=Fri May 13 04:49:22 IST 2022, lastUpdateTimeNanos=40474039005100}
+2022-05-13 04:49:23.093  WARN 16264 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 04:49:23.114  INFO 16264 --- [cluster-rtt-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:138389}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.116  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:138389}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.116  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.dnar8.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=147338800, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-01.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000134, setVersion=7, topologyVersion=TopologyVersion{processId=627b89489ab6c97d8a46d74c, counter=6}, lastWriteDate=Fri May 13 04:49:22 IST 2022, lastUpdateTimeNanos=40474095346300}
+2022-05-13 04:49:23.116  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000134 from replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.116  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.117  INFO 16264 --- [cluster-ClusterId{value='627d95fac00d9d15c1d9b6e3', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 04:49:23.821  INFO 16264 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-13 04:49:24.086  WARN 16264 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-13 04:49:24.161  INFO 16264 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-13 04:49:24.227  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-13 04:49:24.239  INFO 16264 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 04:49:24.287  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-13 04:49:24.288  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-13 04:49:24.288  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-13 04:49:24.288  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-13 04:49:24.288  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-13 04:49:24.288  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-13 04:49:24.288  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-13 04:49:24.597  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-13 04:49:24.611  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-13 04:49:24.624  INFO 16264 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-13 04:49:24.647  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1652397564646 with initial instances count: 1
+2022-05-13 04:49:24.648  INFO 16264 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AGRICULTURECROPSYSTEMFARMER with eureka with status UP
+2022-05-13 04:49:24.648  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652397564648, current=UP, previous=STARTING]
+2022-05-13 04:49:24.651  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082: registering service...
+2022-05-13 04:49:24.685  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-05-13 04:49:24.686  INFO 16264 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-05-13 04:49:24.703  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - registration status: 204
+2022-05-13 04:49:24.834  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Started AgricultureCropSystemFarmerApplication in 6.052 seconds (JVM running for 6.978)
+2022-05-13 04:51:03.889  INFO 16264 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-13 04:51:03.890  INFO 16264 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-13 04:51:03.892  INFO 16264 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-13 04:51:05.088  INFO 16264 --- [http-nio-8082-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:138414}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 04:54:24.299  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 04:59:24.304  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:04:24.311  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:09:24.315  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:14:24.328  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:19:24.340  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:24:24.344  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:29:24.349  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:34:24.356  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:39:24.358  INFO 16264 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:42:38.407  INFO 16264 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AGRICULTURECROPSYSTEMFARMER with eureka with status DOWN
+2022-05-13 05:42:38.407  INFO 16264 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652400758407, current=DOWN, previous=UP]
+2022-05-13 05:42:38.407  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082: registering service...
+2022-05-13 05:42:38.415  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - registration status: 204
+2022-05-13 05:42:38.644  INFO 16264 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-13 05:42:41.669  INFO 16264 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-13 05:42:41.672  INFO 16264 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - deregister  status: 200
+2022-05-13 05:42:41.718  INFO 16264 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-13 05:42:41.868  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Starting AgricultureCropSystemFarmerApplication using Java 17.0.2 on INLEN8520051028 with PID 16264 (C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer\target\classes started by lbangare in C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer)
+2022-05-13 05:42:41.869  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 05:42:42.000  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 05:42:42.006  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 05:42:42.053  INFO 16264 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1f84e606-0f77-382d-8ed8-302bb49eab9a
+2022-05-13 05:42:42.089  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 05:42:42.089  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 05:42:42.089  INFO 16264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 05:42:42.108  INFO 16264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 05:42:42.108  INFO 16264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 237 ms
+2022-05-13 05:42:42.889  INFO 16264 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.dnar8.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-xydrav-shard-0'}
+2022-05-13 05:42:43.115  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 05:42:43.116  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 05:42:43.116  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 05:42:43.482  WARN 16264 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 05:42:43.493  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:138674}] to cluster0-shard-00-02.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.494  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.dnar8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=124614700, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-02.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627b8a98b6b4b63e93047dbb, counter=3}, lastWriteDate=Fri May 13 05:42:43 IST 2022, lastUpdateTimeNanos=43674460935700}
+2022-05-13 05:42:43.494  WARN 16264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-13 05:42:43.504  INFO 16264 --- [cluster-rtt-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:138674}] to cluster0-shard-00-02.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.509  WARN 16264 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 05:42:43.666  INFO 16264 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-13 05:42:43.742  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:139628}] to cluster0-shard-00-00.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.742  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.dnar8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=125932500, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-00.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627b87d1649684b11d2b4fec, counter=4}, lastWriteDate=Fri May 13 05:42:43 IST 2022, lastUpdateTimeNanos=43674710025700}
+2022-05-13 05:42:43.753  INFO 16264 --- [cluster-rtt-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:139628}] to cluster0-shard-00-00.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.756  WARN 16264 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-13 05:42:43.774  INFO 16264 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-13 05:42:43.793  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-13 05:42:43.793  INFO 16264 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-13 05:42:43.804  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-13 05:42:43.816  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-13 05:42:43.820  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-13 05:42:43.823  INFO 16264 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-13 05:42:43.831  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1652400763831 with initial instances count: 3
+2022-05-13 05:42:43.832  INFO 16264 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AGRICULTURECROPSYSTEMFARMER with eureka with status UP
+2022-05-13 05:42:43.832  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652400763832, current=UP, previous=STARTING]
+2022-05-13 05:42:43.832  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082: registering service...
+2022-05-13 05:42:43.837  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-05-13 05:42:43.837  INFO 16264 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-05-13 05:42:43.839  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:141249}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.840  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.dnar8.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=127973300, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-01.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000134, setVersion=7, topologyVersion=TopologyVersion{processId=627b89489ab6c97d8a46d74c, counter=6}, lastWriteDate=Fri May 13 05:42:43 IST 2022, lastUpdateTimeNanos=43674807256200}
+2022-05-13 05:42:43.840  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000134 from replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.840  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.841  INFO 16264 --- [cluster-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.842  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - registration status: 204
+2022-05-13 05:42:43.860  INFO 16264 --- [cluster-rtt-ClusterId{value='627da27ac00d9d15c1d9b6e4', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:141046}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:42:43.915  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Started AgricultureCropSystemFarmerApplication in 2.152 seconds (JVM running for 3206.047)
+2022-05-13 05:42:43.916  INFO 16264 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 05:43:10.976  INFO 16264 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AGRICULTURECROPSYSTEMFARMER with eureka with status DOWN
+2022-05-13 05:43:10.976  INFO 16264 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652400790976, current=DOWN, previous=UP]
+2022-05-13 05:43:10.976  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082: registering service...
+2022-05-13 05:43:10.980  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - registration status: 204
+2022-05-13 05:43:11.220  INFO 16264 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-13 05:43:14.223  WARN 16264 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2022-05-13 05:43:14.235  INFO 16264 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-13 05:43:14.237  INFO 16264 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - deregister  status: 200
+2022-05-13 05:43:14.283  INFO 16264 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-13 05:43:14.419  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Starting AgricultureCropSystemFarmerApplication using Java 17.0.2 on INLEN8520051028 with PID 16264 (C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer\target\classes started by lbangare in C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer)
+2022-05-13 05:43:14.419  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 05:43:14.534  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 05:43:14.542  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 05:43:14.576  INFO 16264 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1f84e606-0f77-382d-8ed8-302bb49eab9a
+2022-05-13 05:43:14.611  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 05:43:14.611  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 05:43:14.611  INFO 16264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 05:43:14.626  INFO 16264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 05:43:14.626  INFO 16264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 205 ms
+2022-05-13 05:43:16.316  INFO 16264 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.dnar8.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-xydrav-shard-0'}
+2022-05-13 05:43:16.623  WARN 16264 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 05:43:16.633  WARN 16264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-13 05:43:16.639  WARN 16264 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 05:43:16.757  INFO 16264 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-13 05:43:16.835  WARN 16264 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-13 05:43:16.845  INFO 16264 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-13 05:43:16.861  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-13 05:43:16.861  INFO 16264 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-13 05:43:16.868  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-13 05:43:16.886  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-13 05:43:16.890  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-13 05:43:16.894  INFO 16264 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-13 05:43:16.902  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1652400796902 with initial instances count: 3
+2022-05-13 05:43:16.903  INFO 16264 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AGRICULTURECROPSYSTEMFARMER with eureka with status UP
+2022-05-13 05:43:16.903  INFO 16264 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652400796903, current=UP, previous=STARTING]
+2022-05-13 05:43:16.904  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082: registering service...
+2022-05-13 05:43:16.908  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-05-13 05:43:16.908  INFO 16264 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2022-05-13 05:43:16.911  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - registration status: 204
+2022-05-13 05:43:16.979  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Started AgricultureCropSystemFarmerApplication in 2.658 seconds (JVM running for 3239.11)
+2022-05-13 05:43:16.980  INFO 16264 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 05:43:17.081  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 05:43:17.082  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 05:43:17.082  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-srv-cluster0.dnar8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.dnar8.mongodb.net:27017 to client view of cluster
+2022-05-13 05:43:17.599  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:139638}] to cluster0-shard-00-00.dnar8.mongodb.net:27017
+2022-05-13 05:43:17.599  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.dnar8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=140570100, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-00.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627b87d1649684b11d2b4fec, counter=4}, lastWriteDate=Fri May 13 05:43:17 IST 2022, lastUpdateTimeNanos=43708565662200}
+2022-05-13 05:43:17.603  INFO 16264 --- [cluster-rtt-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:138679}] to cluster0-shard-00-02.dnar8.mongodb.net:27017
+2022-05-13 05:43:17.785  INFO 16264 --- [cluster-rtt-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:141256}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:43:17.785  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:141256}] to cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:43:17.786  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.dnar8.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=153054600, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-01.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000134, setVersion=7, topologyVersion=TopologyVersion{processId=627b89489ab6c97d8a46d74c, counter=6}, lastWriteDate=Fri May 13 05:43:17 IST 2022, lastUpdateTimeNanos=43708752612500}
+2022-05-13 05:43:17.786  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000134 from replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:43:17.786  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:43:17.786  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-01.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.dnar8.mongodb.net:27017
+2022-05-13 05:43:27.301  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.dnar8.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 4 common frames omitted
+
+2022-05-13 05:43:37.471  INFO 16264 --- [cluster-rtt-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-00.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:21, serverValue:139667}] to cluster0-shard-00-00.dnar8.mongodb.net:27017
+2022-05-13 05:43:58.064  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:22, serverValue:138718}] to cluster0-shard-00-02.dnar8.mongodb.net:27017
+2022-05-13 05:43:58.065  INFO 16264 --- [cluster-ClusterId{value='627da29cc00d9d15c1d9b6e5', description='null'}-cluster0-shard-00-02.dnar8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.dnar8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=110856800, setName='atlas-xydrav-shard-0', canonicalAddress=cluster0-shard-00-02.dnar8.mongodb.net:27017, hosts=[cluster0-shard-00-02.dnar8.mongodb.net:27017, cluster0-shard-00-00.dnar8.mongodb.net:27017, cluster0-shard-00-01.dnar8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.dnar8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627b8a98b6b4b63e93047dbb, counter=3}, lastWriteDate=Fri May 13 05:43:58 IST 2022, lastUpdateTimeNanos=43749030786500}
+2022-05-13 05:44:01.939  INFO 16264 --- [Thread-14] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AGRICULTURECROPSYSTEMFARMER with eureka with status DOWN
+2022-05-13 05:44:01.939  INFO 16264 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652400841939, current=DOWN, previous=UP]
+2022-05-13 05:44:01.939  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082: registering service...
+2022-05-13 05:44:01.943  INFO 16264 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - registration status: 204
+2022-05-13 05:44:02.078  INFO 16264 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-05-13 05:44:05.096  INFO 16264 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-05-13 05:44:05.099  INFO 16264 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGRICULTURECROPSYSTEMFARMER/INLEN8520051028.corp.capgemini.com:AgricultureCropSystemfarmer:8082 - deregister  status: 200
+2022-05-13 05:44:05.146  INFO 16264 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-05-13 05:44:05.285  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Starting AgricultureCropSystemFarmerApplication using Java 17.0.2 on INLEN8520051028 with PID 16264 (C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer\target\classes started by lbangare in C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer)
+2022-05-13 05:44:05.285  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 05:44:05.390  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 05:44:05.398  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 05:44:05.428  INFO 16264 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=84e6c3c2-8872-360d-b5e9-ee9323625ebf
+2022-05-13 05:44:05.453  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 05:44:05.454  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 05:44:05.454  INFO 16264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 05:44:05.476  INFO 16264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 05:44:05.476  INFO 16264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 189 ms
+2022-05-13 05:44:05.481  WARN 16264 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@15c64511]
+2022-05-13 05:44:05.482  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 05:44:05.487  INFO 16264 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 05:44:05.500 ERROR 16264 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@15c64511]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.cg.farmer.AgricultureCropSystemFarmerApplication.main(AgricultureCropSystemFarmerApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@15c64511]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ProceedingJoinPoint
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ProceedingJoinPoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+2022-05-13 05:47:06.385  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Starting AgricultureCropSystemFarmerApplication using Java 17.0.2 on INLEN8520051028 with PID 16264 (C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer\target\classes started by lbangare in C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer)
+2022-05-13 05:47:06.386  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 05:47:06.484  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 05:47:06.490  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 05:47:06.520  INFO 16264 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=84e6c3c2-8872-360d-b5e9-ee9323625ebf
+2022-05-13 05:47:06.546  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 05:47:06.547  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 05:47:06.547  INFO 16264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 05:47:06.561  INFO 16264 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 05:47:06.561  INFO 16264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2022-05-13 05:47:06.566  WARN 16264 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1fccc5b2]
+2022-05-13 05:47:06.566  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 05:47:06.570  INFO 16264 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 05:47:06.572 ERROR 16264 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1fccc5b2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.cg.farmer.AgricultureCropSystemFarmerApplication.main(AgricultureCropSystemFarmerApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1fccc5b2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/ProceedingJoinPoint
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.ProceedingJoinPoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+2022-05-13 05:47:44.819  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : Starting AgricultureCropSystemFarmerApplication using Java 17.0.2 on INLEN8520051028 with PID 16264 (C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer\target\classes started by lbangare in C:\Users\LBANGARE\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\Agriculture_Crop_System_farmer)
+2022-05-13 05:47:44.819  INFO 16264 --- [restartedMain] f.AgricultureCropSystemFarmerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 05:47:44.914  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 05:47:44.920  INFO 16264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 05:47:44.946  INFO 16264 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=84e6c3c2-8872-360d-b5e9-ee9323625ebf
+2022-05-13 05:47:44.973  INFO 16264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 05:47:44.974  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 05:47:44.974  INFO 16264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 05:47:44.989  INFO 16264 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 05:47:44.989  INFO 16264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2022-05-13 05:47:44.997  WARN 16264 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@49244b3e]
+2022-05-13 05:47:44.997  INFO 16264 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 05:47:45.001  INFO 16264 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 05:47:45.004 ERROR 16264 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loggingAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@49244b3e]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.cg.farmer.AgricultureCropSystemFarmerApplication.main(AgricultureCropSystemFarmerApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.cg.farmer.aspect.LoggingAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@49244b3e]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/ProceedingJoinPoint
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.ProceedingJoinPoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
